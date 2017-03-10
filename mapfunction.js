@@ -1,5 +1,9 @@
-var words = ["ground", "control", "to", "major", "tom"];
+var outKast = ["southernplayalisticadillacmuzik", "aquemini", "atliens", "stankonia"];
 
-  map(words, function(word) {
-  return word.length;
+var album = outKast.map(function(name) {
+  return name.length;
 });
+
+console.log(album);
+
+var word = new String('hello');
