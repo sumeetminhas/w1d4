@@ -5,5 +5,3 @@ var album = outKast.map(function(name) {
 });
 
 console.log(album);
-
-var word = new String('hello');
